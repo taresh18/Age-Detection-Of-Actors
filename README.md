@@ -22,7 +22,7 @@ The task is to predict the age of a person from his or her facial attributes. Fo
 * Pretrained Models Used:
   1. Resnet-50 (0.680 - 0.708)
   2. Efficient_b0 (0.896-0.921)
-  3. Efficient_b3 ()0.902-0.930)
+  3. Efficient_b3 (0.902-0.930)
 
 * Tried different Image Augmentations:
   both train-time (from Albumentation library) and test-time (from TTA library)
