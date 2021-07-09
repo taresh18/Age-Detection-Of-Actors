@@ -20,3 +20,10 @@ The attributes of data are as follows: ID – Unique ID of image Class – Age b
 
 ## Things I Tried:
 
+* Pretrained Models Used:
+  1. Resnet-50 (0.680 - 0.708)
+  2. Efficient_b0 (0.896-0.921)
+  3. Efficient_b3 ()0.902-0.930)
+
+* 
+
