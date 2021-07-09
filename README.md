@@ -24,5 +24,18 @@ The task is to predict the age of a person from his or her facial attributes. Fo
   2. Efficient_b0 (0.896-0.921)
   3. Efficient_b3 ()0.902-0.930)
 
+* Tried different Image Augmentations:
+  both train-time (from Albumentation library) and test-time (from TTA library)
+
+* Tried the Adam and Ranger optimisers along with Stratifeid K-fold Cross-validation technique. Also used learning rate scheduling (used ReduceLROnPlateau)
+
+* Trained each model for 20-50 epochs. Used fine-tuning for Resnet (as it has more parameters than effnet models)
+
+## Things to try in Future:
+
+* Pseudo-labelling
+* Different ensembling techniques
+* Hyper-parameter optimisations
+* 
 * 
 
